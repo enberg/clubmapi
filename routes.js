@@ -10,6 +10,6 @@ let routes = [
 
 module.exports = (app) => {
   routes.map((route) => {
-    app.use(_[route.method](route.path, route.index));
+    app.use(_[route.method](route.path, route.action));
   });
 }
