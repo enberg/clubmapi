@@ -9,5 +9,6 @@ function * add() {
 }
 
 module.exports = {
-  index: index
+  index: index,
+  add: add
 }
